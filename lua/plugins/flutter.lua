@@ -1,8 +1,10 @@
 return {
-  "akinsho/flutter-tools.nvim",
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-    "stevearc/dressing.nvim",
+  {
+    "akinsho/flutter-tools.nvim",
+    lazy = false,
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+    config = true,
   },
-  config = true,
 }
