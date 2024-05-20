@@ -16,36 +16,37 @@ return {
           opts.capabilities.offsetEncoding = { "utf-16" }
         end,
       },
-      servers = {
-        tsserver = {
-          settings = {
-            typescript = {
-              inlayHints = {
-                includeInlayEnumMemberValueHints = false,
-                includeInlayFunctionLikeReturnTypeHints = false,
-                includeInlayFunctionParameterTypeHints = false,
-                -- includeInlayParameterNameHints = "literal",
-                includeInlayParameterNameHintsWhenArgumentMatchesName = false,
-                includeInlayPropertyDeclarationTypeHints = false,
-                includeInlayVariableTypeHints = false,
-                includeInlayVariableTypeHintsWhenTypeMatchesName = false,
-              },
-            },
-            javascript = {
-              inlayHints = {
-                includeInlayEnumMemberValueHints = false,
-                includeInlayFunctionLikeReturnTypeHints = false,
-                includeInlayFunctionParameterTypeHints = false,
-                -- includeInlayParameterNameHints = "literal",
-                includeInlayParameterNameHintsWhenArgumentMatchesName = false,
-                includeInlayPropertyDeclarationTypeHints = false,
-                includeInlayVariableTypeHints = false,
-                includeInlayVariableTypeHintsWhenTypeMatchesName = false,
-              },
-            },
-          },
-        },
-      },
+      inlay_hints = { enabled = false },
+      -- servers = {
+      --   tsserver = {
+      --     settings = {
+      --       typescript = {
+      --         inlayHints = {
+      --           includeInlayEnumMemberValueHints = false,
+      --           includeInlayFunctionLikeReturnTypeHints = false,
+      --           includeInlayFunctionParameterTypeHints = false,
+      --           -- includeInlayParameterNameHints = "literal",
+      --           includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+      --           includeInlayPropertyDeclarationTypeHints = false,
+      --           includeInlayVariableTypeHints = false,
+      --           includeInlayVariableTypeHintsWhenTypeMatchesName = false,
+      --         },
+      --       },
+      --       javascript = {
+      --         inlayHints = {
+      --           includeInlayEnumMemberValueHints = false,
+      --           includeInlayFunctionLikeReturnTypeHints = false,
+      --           includeInlayFunctionParameterTypeHints = false,
+      --           -- includeInlayParameterNameHints = "literal",
+      --           includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+      --           includeInlayPropertyDeclarationTypeHints = false,
+      --           includeInlayVariableTypeHints = false,
+      --           includeInlayVariableTypeHintsWhenTypeMatchesName = false,
+      --         },
+      --       },
+      --     },
+      --   },
+      -- },
       -- servers = {
       --   astro = {},
       -- },
