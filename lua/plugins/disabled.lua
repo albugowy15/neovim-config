@@ -5,7 +5,7 @@ return {
   { "hrsh7th/cmp-path", enabled = false },
   { "catppuccin/nvim", enabled = false },
   { "nvim-pack/nvim-spectre", enabled = false },
-  { "rafamadriz/friendly-snippets", enabled = false },
+  -- { "rafamadriz/friendly-snippets", enabled = false },
   { "nvimdev/dashboard-nvim", enabled = false },
   { "rcarriga/nvim-notify", enabled = false },
 }
