@@ -8,4 +8,6 @@ return {
   -- { "rafamadriz/friendly-snippets", enabled = false },
   { "nvimdev/dashboard-nvim", enabled = false },
   { "rcarriga/nvim-notify", enabled = false },
+  { "RRethy/vim-illuminate", enabled = false },
+  { "echasnovski/mini.ai", enabled = false },
 }
