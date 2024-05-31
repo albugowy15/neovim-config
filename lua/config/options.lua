@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.opt.cursorlineopt = "number"
 vim.opt.smartindent = false
+vim.o.background = "dark"
