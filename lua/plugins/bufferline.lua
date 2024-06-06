@@ -10,10 +10,6 @@ return {
   },
   opts = {
     options = {
-      -- -- stylua: ignore
-      -- close_command = function(n) LazyVim.ui.bufremove(n) end,
-      -- -- stylua: ignore
-      -- right_mouse_command = function(n) LazyVim.ui.bufremove(n) end,
       diagnostics = "nvim_lsp",
       -- always_show_bufferline = false,
       diagnostics_indicator = function(count, level, _, _)
