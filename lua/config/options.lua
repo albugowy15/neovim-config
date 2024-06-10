@@ -6,3 +6,4 @@ vim.opt.cursorlineopt = "number"
 vim.o.background = "dark"
 vim.o.timeoutlen = 10000 -- Timoutlen to delay which key
 vim.g.autoformat = false
+vim.g.netrw_banner = 0
